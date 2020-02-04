@@ -2,348 +2,250 @@ import { FuseNavigation } from '@fuse/types';
 
 export const navigation: FuseNavigation[] = [
     {
-        id       : 'dashboards',
-        title    : 'Dashboard',
-        translate: 'NAV.DASHBOARDS',
-        type     : 'item',
-        icon     : 'dashboard',
-        url       : '/apps/dashboard',
+        id: 'dashboard',
+        title: 'Dashboard',
+        type: 'item',
+        icon: 'dashboard',
+        url: '/apps/dashboards/project',
     },
     {
-        id       : 'applications',
-        title    : 'INVENTORY',
-        translate: 'NAV.APPLICATIONS',
-        type     : 'group',
-        icon     : 'apps',
-        children : [
-        {
-            id        : 'products',
-            title     : 'Products',
-            type      : 'item',
-            url       : '/apps/e-commerce/products',
-            icon      : 'shopping_cart',
-            exactMatch: true
-        },
-        {
-            id        : 'products',
-            title     : 'Inventory Items',
-            type      : 'item',
-            url       : '/apps/e-commerce/products',
-            icon      : 'local_drink',
-            exactMatch: true
-        },
-        {
-            id        : 'products',
-            title     : 'Ingredients',
-            type      : 'item',
-            url       : '/apps/e-commerce/products',
-            icon      : 'fastfood',
-            exactMatch: true
-        },
-        {
-            id        : 'products',
-            title     : 'Ingredient Groups',
-            type      : 'item',
-            url       : '/apps/e-commerce/products',
-            icon      : 'collections_bookmark',
-            exactMatch: true
-        },
-        {
-            id        : 'products',
-            title     : 'Descriptors',
-            type      : 'item',
-            url       : '/apps/e-commerce/products',
-            icon      : 'subtitles',
-            exactMatch: true
+        id: 'inventory',
+        title: 'INVENTORY',
+        type: 'group',
+        icon: 'apps',
+        children: [
+            {
+                id: 'products',
+                title: 'Products',
+                type: 'item',
+                url: '/apps/e-commerce/products',
+                icon: 'shopping_cart',
+                exactMatch: true
             },
             {
-                id       : 'academy',
-                title    : 'Academy',
-                translate: 'NAV.ACADEMY',
-                type     : 'item',
-                icon     : 'school',
-                url      : '/apps/academy'
+                id: 'products',
+                title: 'Inventory Items',
+                type: 'item',
+                url: '/apps/e-commerce/inventory-items',
+                icon: 'local_drink',
+                exactMatch: true
             },
             {
-                id       : 'mail',
-                title    : 'Mail',
-                translate: 'NAV.MAIL.TITLE',
-                type     : 'item',
-                icon     : 'email',
-                url      : '/apps/mail',
-                badge    : {
-                    title    : '25',
-                    translate: 'NAV.MAIL.BADGE',
-                    bg       : '#F44336',
-                    fg       : '#FFFFFF'
-                }
+                id: 'products',
+                title: 'Ingredients',
+                type: 'collapsable',
+                icon: 'fastfood',
+                children: [
+                    {
+                        id: 'products',
+                        title: 'All Ingredients',
+                        type: 'item',
+                        url: '/apps/e-commerce/ingredients',
+                        icon: 'fastfood',
+                        exactMatch: true
+                    },
+                    {
+                        id: 'products',
+                        title: 'Ingredient Groups',
+                        type: 'item',
+                        url: '/apps/e-commerce/ingredient-groups',
+                        icon: 'collections_bookmark',
+                        exactMatch: true
+                    }
+                ]
             },
             {
-                id       : 'mail-ngrx',
-                title    : 'Mail Ngrx',
-                translate: 'NAV.MAIL_NGRX.TITLE',
-                type     : 'item',
-                icon     : 'email',
-                url      : '/apps/mail-ngrx',
-                badge    : {
-                    title    : '13',
-                    translate: 'NAV.MAIL_NGRX.BADGE',
-                    bg       : '#EC0C8E',
-                    fg       : '#FFFFFF'
-                }
-            },
-            {
-                id       : 'chat',
-                title    : 'Chat',
-                translate: 'NAV.CHAT',
-                type     : 'item',
-                icon     : 'chat',
-                url      : '/apps/chat',
-                badge    : {
-                    title: '13',
-                    bg   : '#09d261',
-                    fg   : '#FFFFFF'
-                }
-            },
-            {
-                id       : 'file-manager',
-                title    : 'File Manager',
-                translate: 'NAV.FILE_MANAGER',
-                type     : 'item',
-                icon     : 'folder',
-                url      : '/apps/file-manager'
-            },
-            {
-                id       : 'contacts',
-                title    : 'Contacts',
-                translate: 'NAV.CONTACTS',
-                type     : 'item',
-                icon     : 'account_box',
-                url      : '/apps/contacts'
-            },
-            {
-                id       : 'to-do',
-                title    : 'To-Do',
-                translate: 'NAV.TODO',
-                type     : 'item',
-                icon     : 'check_box',
-                url      : '/apps/todo',
-                badge    : {
-                    title: '3',
-                    bg   : '#FF6F00',
-                    fg   : '#FFFFFF'
-                }
-            },
-            {
-                id       : 'scrumboard',
-                title    : 'Scrumboard',
-                translate: 'NAV.SCRUMBOARD',
-                type     : 'item',
-                icon     : 'assessment',
-                url      : '/apps/scrumboard'
+                id: 'products',
+                title: 'Descriptors',
+                type: 'item',
+                url: '/apps/e-commerce/descriptors',
+                icon: 'description',
+                exactMatch: true
             }
         ]
     },
     {
-        id      : 'pages',
-        title   : 'Pages',
-        type    : 'group',
-        icon    : 'pages',
+        id: 'marketing',
+        title: 'MARKETING',
+        type: 'group',
+        icon: 'apps',
         children: [
             {
-                id      : 'authentication',
-                title   : 'Authentication',
-                type    : 'collapsable',
-                icon    : 'lock',
-                badge   : {
-                    title: '10',
-                    bg   : '#525e8a',
-                    fg   : '#FFFFFF'
-                },
+                id: 'offers',
+                title: 'Offers',
+                type: 'collapsable',
+                icon: 'bookmark_border',
                 children: [
                     {
-                        id   : 'login',
-                        title: 'Login',
-                        type : 'item',
-                        url  : '/pages/auth/login'
+                        id: 'offers',
+                        title: 'All Offers',
+                        type: 'item',
+                        url: '/apps/e-commerce/offers',
+                        icon: 'bookmark',
+                        exactMatch: true
                     },
                     {
-                        id   : 'login-v2',
-                        title: 'Login v2',
-                        type : 'item',
-                        url  : '/pages/auth/login-2'
-                    },
-                    {
-                        id   : 'register',
-                        title: 'Register',
-                        type : 'item',
-                        url  : '/pages/auth/register'
-                    },
-                    {
-                        id   : 'register-v2',
-                        title: 'Register v2',
-                        type : 'item',
-                        url  : '/pages/auth/register-2'
-                    },
-                    {
-                        id   : 'forgot-password',
-                        title: 'Forgot Password',
-                        type : 'item',
-                        url  : '/pages/auth/forgot-password'
-                    },
-                    {
-                        id   : 'forgot-password-v2',
-                        title: 'Forgot Password v2',
-                        type : 'item',
-                        url  : '/pages/auth/forgot-password-2'
-                    },
-                    {
-                        id   : 'reset-password',
-                        title: 'Reset Password',
-                        type : 'item',
-                        url  : '/pages/auth/reset-password'
-                    },
-                    {
-                        id   : 'reset-password-v2',
-                        title: 'Reset Password v2',
-                        type : 'item',
-                        url  : '/pages/auth/reset-password-2'
-                    },
-                    {
-                        id   : 'lock-screen',
-                        title: 'Lock Screen',
-                        type : 'item',
-                        url  : '/pages/auth/lock'
-                    },
-                    {
-                        id   : 'mail-confirmation',
-                        title: 'Mail Confirmation',
-                        type : 'item',
-                        url  : '/pages/auth/mail-confirm'
+                        id: 'offer-sets',
+                        title: 'Offer Sets',
+                        type: 'item',
+                        url: '/apps/e-commerce/offers-sets',
+                        icon: 'bookmarks',
+                        exactMatch: true
                     }
                 ]
             },
             {
-                id   : 'coming-soon',
-                title: 'Coming Soon',
-                type : 'item',
-                icon : 'alarm',
-                url  : '/pages/coming-soon'
+                id: 'promotions',
+                title: 'Promotions',
+                type: 'item',
+                url: '/apps/e-commerce/promotions',
+                icon: 'trending_up',
+                exactMatch: true
             },
             {
-                id      : 'errors',
-                title   : 'Errors',
-                type    : 'collapsable',
-                icon    : 'error',
-                children: [
-                    {
-                        id   : '404',
-                        title: '404',
-                        type : 'item',
-                        url  : '/pages/errors/error-404'
-                    },
-                    {
-                        id   : '500',
-                        title: '500',
-                        type : 'item',
-                        url  : '/pages/errors/error-500'
-                    }
-                ]
-            },
-            {
-                id      : 'invoice',
-                title   : 'Invoice',
-                type    : 'collapsable',
-                icon    : 'receipt',
-                children: [
-                    {
-                        id   : 'modern',
-                        title: 'Modern',
-                        type : 'item',
-                        url  : '/pages/invoices/modern'
-                    },
-                    {
-                        id   : 'compact',
-                        title: 'Compact',
-                        type : 'item',
-                        url  : '/pages/invoices/compact'
-                    }
-                ]
-            },
-            {
-                id   : 'maintenance',
-                title: 'Maintenance',
-                type : 'item',
-                icon : 'build',
-                url  : '/pages/maintenance'
-            },
-            {
-                id      : 'pricing',
-                title   : 'Pricing',
-                type    : 'collapsable',
-                icon    : 'attach_money',
-                children: [
-                    {
-                        id   : 'style-1',
-                        title: 'Style 1',
-                        type : 'item',
-                        url  : '/pages/pricing/style-1'
-                    },
-                    {
-                        id   : 'style-2',
-                        title: 'Style 2',
-                        type : 'item',
-                        url  : '/pages/pricing/style-2'
-                    },
-                    {
-                        id   : 'style-3',
-                        title: 'Style 3',
-                        type : 'item',
-                        url  : '/pages/pricing/style-3'
-                    }
-                ]
-            },
-            {
-                id   : 'profile',
-                title: 'Profile',
-                type : 'item',
-                icon : 'person',
-                url  : '/pages/profile'
-            },
-            {
-                id      : 'search',
-                title   : 'Search',
-                type    : 'collapsable',
-                icon    : 'search',
-                children: [
-                    {
-                        id   : 'search-classic',
-                        title: 'Classic',
-                        type : 'item',
-                        url  : '/pages/search/classic'
-                    },
-                    {
-                        id   : 'search-modern',
-                        title: 'Modern',
-                        type : 'item',
-                        url  : '/pages/search/modern'
-                    }
-                ]
-            },
-            {
-                id   : 'faq',
-                title: 'Faq',
-                type : 'item',
-                icon : 'help',
-                url  : '/pages/faq'
-            },
-            {
-                id   : 'knowledge-base',
-                title: 'Knowledge Base',
-                type : 'item',
-                icon : 'import_contacts',
-                url  : '/pages/knowledge-base'
+                id: 'campaigns',
+                title: 'Campaigns',
+                type: 'item',
+                url: '/apps/e-commerce/campaigns',
+                icon: 'card_membership',
+                exactMatch: true
             }
-        ]        
+        ]
+    },
+    {
+        id: 'marketing',
+        title: 'INTERFACE',
+        type: 'group',
+        icon: 'apps',
+        children: [
+            {
+                id: 'menus',
+                title: 'Menus',
+                type: 'item',
+                url: '/apps/e-commerce/menus',
+                icon: 'view_week',
+                exactMatch: true
+            },
+            {
+                id: 'screens',
+                title: 'Screens',
+                type: 'item',
+                url: '/apps/e-commerce/screens',
+                icon: 'personal_video',
+                exactMatch: true
+            }
+        ]
+    },
+    {
+        id: 'pages',
+        title: 'ADMIN',
+        type: 'group',
+        icon: 'pages',
+        children: [
+            {
+                id: 'security',
+                title: 'Security',
+                type: 'collapsable',
+                icon: 'security',
+                children: [
+                    {
+                        id: 'users',
+                        title: 'Users',
+                        type: 'item',
+                        url: '/pages/security/users',
+                        icon: 'person'
+                    },
+                    {
+                        id: 'roles',
+                        title: 'Roles',
+                        type: 'item',
+                        url: '/pages/security/roles',
+                        icon: 'lock'
+                    }
+                ]
+            },
+            {
+                id: 'lookups',
+                title: 'Lookups',
+                type: 'collapsable',
+                icon: 'view_headline',
+                children: [
+                    {
+                        id: 'lookups',
+                        title: 'Main Lookups',
+                        type: 'item',
+                        url: '/pages/admin/lookups',
+                        icon: 'list'
+                    },
+                    {
+                        id: 'lookups',
+                        title: 'Unit Of Measure',
+                        type: 'item',
+                        url: '/pages/admin/lookupsUOM',
+                        icon: 'network_check'
+                    }
+                ]
+            },
+            {
+                id: 'audit',
+                title: 'Audit',
+                type: 'item',
+                url: '/apps/admin/audit',
+                icon: 'track_changes',
+                exactMatch: true
+            },
+            {
+                id: 'adminpublish',
+                title: 'Admin Publish',
+                type: 'item',
+                url: '/apps/admin/publish',
+                icon: 'refresh',
+                exactMatch: true
+            },
+            {
+                id: 'lookups',
+                title: 'Localization',
+                type: 'collapsable',
+                icon: 'view_headline',
+                children: [
+                    {
+                        id: 'languages',
+                        title: 'Languages',
+                        type: 'item',
+                        url: '/pages/admin/languages',
+                        icon: 'language'
+                    },
+                    {
+                        id: 'translations',
+                        title: 'Translations',
+                        type: 'item',
+                        url: '/pages/admin/translations',
+                        icon: 'translate'
+                    }
+                ]
+            },
+            {
+                id: 'reports',
+                title: 'Reports',
+                type: 'collapsable',
+                icon: 'bar_chart',
+                children: [
+                    {
+                        id: 'itemsreport',
+                        title: 'Items Report',
+                        type: 'item',
+                        url: '/pages/admin/itemsreport',
+                        icon: 'show_chart'
+                    },
+                    {
+                        id: 'lookupsreport',
+                        title: 'Lookup reports',
+                        type: 'item',
+                        url: '/pages/admin/lookupsreport',
+                        icon: 'insert_chart'
+                    }
+                ]
+            }
+        ]
     },
 ];

@@ -45,7 +45,6 @@ vertical-layout-1 {
 
                     // Content component
                     content {
-
                         &.inner-scroll {
                             flex: 1 1 0%;
                             min-height: 0;
@@ -57,6 +56,31 @@ vertical-layout-1 {
                     }
                 }
             }
+        }
+    }
+}
+
+.page-layout {
+    // Carded layout
+    &.carded {
+        // Top bg
+        > .top-bg {
+            background-color: #038d43 !important;
+        }
+
+        .center {
+            // header
+            > .header.accent {
+                background-color: #038d43 !important;
+            }
+        }
+    }
+
+    .center {
+
+        // header
+        > .header.accent {
+            background-color: #038d43 !important;
         }
     }
 }

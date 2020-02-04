@@ -43,8 +43,13 @@ const appRoutes: Routes = [
         loadChildren: './main/angular-material-elements/angular-material-elements.module#AngularMaterialElementsModule'
     },
     {
+        path: '',
+        redirectTo: 'apps/dashboards/project',
+        pathMatch: 'full'
+    },
+    {
         path      : '**',
-        redirectTo: 'apps/dashboards/analytics'
+        redirectTo: 'pages/errors/error-404'
     }
 ];
 

@@ -35,9 +35,11 @@ fuse-sidebar {
                                     margin: 0 12px;
                                     padding: 0 12px;
                                 }
+                                
                             }
                         }
                     }
+
                 }
             }
         }
@@ -104,5 +106,31 @@ navbar {
             -webkit-overflow-scrolling: touch;
         }
 
+    }
+}
+
+// CUSTOM
+.nav {
+
+    .nav-subheader {
+    }
+
+    .nav-group {
+
+        > .group-title {
+        }
+    }
+
+    .nav-item {
+
+        .nav-link {
+            border-radius: 20px;
+            margin: 0 12px;
+            padding: 0 12px;
+        }
+        .nav-link.active {
+            background-color: #ffc113 !important;
+            color: #4b006a !important;
+        }
     }
 }
