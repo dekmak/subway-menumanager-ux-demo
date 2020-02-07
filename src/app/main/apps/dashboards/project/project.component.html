@@ -20,7 +20,7 @@
 
             <div fxLayout="row">
 
-                <div class="selected-project">{{selectedProject.name}}</div>
+                <div class="selected-project">{{ selectedProject.name }}</div>
 
                 <button mat-icon-button class="project-selector" [matMenuTriggerFor]="projectsMenu"
                         aria-label="Select project">
@@ -41,7 +41,7 @@
 
             <mat-tab-group dynamicHeight>
 
-                <mat-tab label="Home">
+                <mat-tab label="Overview">
 
                     <div class="widget-group p-12" fxLayout="row wrap" fxFlex="100" *fuseIfOnDom
                          [@animateStagger]="{value:'50'}">
@@ -437,7 +437,7 @@
 
                 </mat-tab>
 
-                <mat-tab label="Budget Summary">
+                <mat-tab label="Completence Summary">
 
                     <!-- WIDGET GROUP -->
                     <div class="widget-group" fxLayout="row wrap" fxFlex="100" *fuseIfOnDom
@@ -639,7 +639,7 @@
 
                 </mat-tab>
 
-                <mat-tab label="Team Members">
+                <mat-tab label="All Users">
 
                     <!-- WIDGET GROUP -->
                     <div class="widget-group" fxLayout="row wrap" fxFlex="100" *fuseIfOnDom

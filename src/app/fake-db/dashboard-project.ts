@@ -2,17 +2,23 @@ export class ProjectDashboardDb
 {
     public static projects = [
         {
-            'name': 'ACME Corp. Backend App'
+            'name': 'All branches'
         },
         {
-            'name': 'ACME Corp. Frontend App'
+            'name': 'Subway'
         },
         {
-            'name': 'Creapond'
+            'name': 'Walmart'
         },
         {
-            'name': 'Withinpixels'
-        }
+            'name': 'Mama DeLuca\'s'
+        },
+        {
+            'name': 'Auntie Anne\'s'
+        },
+        {
+            'name': 'TCBY'
+        },
     ];
 
     public static widgets = {
@@ -24,7 +30,7 @@ export class ProjectDashboardDb
             },
             'currentRange': 'DT',
             'data'        : {
-                'label': 'DUE TASKS',
+                'label': 'Modified recently',
                 'count': {
                     'DY' : 21,
                     'DT' : 25,
@@ -43,9 +49,9 @@ export class ProjectDashboardDb
             'detail'      : 'You can show some detailed information about this widget in here.'
         },
         'widget2'      : {
-            'title' : 'Overdue',
+            'title' : 'Publishing',
             'data'  : {
-                'label': 'TASKS',
+                'label': 'Failed Operations',
                 'count': 4,
                 'extra': {
                     'label': 'Yesterday\'s overdue',
@@ -55,9 +61,9 @@ export class ProjectDashboardDb
             'detail': 'You can show some detailed information about this widget in here.'
         },
         'widget3'      : {
-            'title' : 'Issues',
+            'title' : 'In Progress',
             'data'  : {
-                'label': 'OPEN',
+                'label': 'Publihs Operations',
                 'count': 32,
                 'extra': {
                     'label': 'Closed today',
@@ -67,9 +73,9 @@ export class ProjectDashboardDb
             'detail': 'You can show some detailed information about this widget in here.'
         },
         'widget4'      : {
-            'title' : 'Features',
+            'title' : 'Waiting Completion',
             'data'  : {
-                'label': 'PROPOSALS',
+                'label': 'Menus',
                 'count': 42,
                 'extra': {
                     'label': 'Implemented',

@@ -3,16 +3,24 @@ export class ECommerceFakeDb
     public static products = [
         {
             'id'              : '1',
-            'name'            : 'A Walk Amongst Friends - Canvas Print',
+            'name'            : 'Food, Bread, White, 70/1 Each, 70/1 Each',
             'handle'          : 'a-walk-amongst-friends-canvas-print',
             'description'     : 'Officia amet eiusmod eu sunt tempor voluptate laboris velit nisi amet enim proident et. Consequat laborum non eiusmod cillum eu exercitation. Qui adipisicing est fugiat eiusmod esse. Sint aliqua cupidatat pariatur mollit ad est proident reprehenderit. Eiusmod adipisicing laborum incididunt sit aliqua ullamco.',
             'categories'      : [
-                'Canvas Print',
+                'Subway',
                 'Nature'
             ],
             'tags'            : [
-                'canvas-print',
-                'nature'
+                'Germany',
+                'France',
+                'USA',
+                'Canada',
+                'Lebanon',
+                'United kingdom',
+                'Switzerland',
+                'Vietnam',
+                'Singapore',
+                'Irelnad'
             ],
             'featuredImageId' : 1,
             'images'          : [
@@ -78,15 +86,16 @@ export class ECommerceFakeDb
             'depth'           : '15',
             'weight'          : '3',
             'extraShippingFee': 3.00,
-            'active'          : true
+            'active'          : true,
+            'lastModified'    : '4/14/16'
         },
         {
             'id'              : '2',
-            'name'            : 'Braies Lake - Canvas Print',
+            'name'            : 'Food, Bread, White, Wheat, Mini, 70/1 Each',
             'handle'          : 'braies-lake-canvas-print',
             'description'     : 'Duis anim est non exercitation consequat. Ullamco ut ipsum dolore est elit est ea elit ad fugiat exercitation. Adipisicing eu ad sit culpa sint. Minim irure Lorem eiusmod minim nisi sit est consectetur.',
             'categories'      : [
-                'Canvas Print',
+                'Subway',
                 'Nature'
             ],
             'tags'            : [
@@ -157,15 +166,16 @@ export class ECommerceFakeDb
             'depth'           : '15',
             'weight'          : '3',
             'extraShippingFee': 3.00,
-            'active'          : true
+            'active'          : true,
+            'lastModified'    : '4/14/17'
         },
         {
             'id'              : '3',
-            'name'            : 'Fall Glow - Canvas Print',
+            'name'            : 'Food, Topping, Icing, 1/1 Each',
             'handle'          : 'fall-glow-canvas-print',
             'description'     : 'Sit ipsum esse eu consequat veniam sit consectetur consectetur anim. Ut Lorem dolor ullamco do. Laboris excepteur consectetur tempor nisi commodo amet deserunt duis.',
             'categories'      : [
-                'Canvas Print',
+                'Walmart',
                 'Nature'
             ],
             'tags'            : [
@@ -236,15 +246,16 @@ export class ECommerceFakeDb
             'depth'           : '15',
             'weight'          : '3',
             'extraShippingFee': 3.00,
-            'active'          : true
+            'active'          : true,
+            'lastModified'    : '5/14/19'
         },
         {
             'id'              : '4',
-            'name'            : 'First Snow - Canvas Print',
+            'name'            : 'Bread, Biscuit, 3.17 oz, 168/1 Each',
             'handle'          : 'first-snow-canvas-print',
             'description'     : 'Incididunt nostrud culpa labore nostrud veniam nostrud dolore velit sunt laborum ad reprehenderit. Excepteur enim irure ut labore elit ut deserunt qui qui consequat quis do nostrud ad. Aliqua dolor labore ut occaecat laborum irure. Aute in deserunt do aute laborum sit et reprehenderit minim voluptate proident do est.',
             'categories'      : [
-                'Canvas Print',
+                'Walmart',
                 'Nature'
             ],
             'tags'            : [
@@ -315,15 +326,16 @@ export class ECommerceFakeDb
             'depth'           : '15',
             'weight'          : '3',
             'extraShippingFee': 3.00,
-            'active'          : false
+            'active'          : false,
+            'lastModified'    : '5/12/19'
         },
         {
             'id'              : '5',
-            'name'            : 'Lago di Braies - Canvas Print',
+            'name'            : 'Bread, Biscuit, Pre-Baked, 3 oz, 90/1 Each',
             'handle'          : 'lago-di-braies-canvas-print',
             'description'     : 'Laboris laborum minim qui reprehenderit duis fugiat ea anim labore incididunt duis. Officia adipisicing anim amet in sit aliqua fugiat quis do sint non velit eu. Labore occaecat labore elit voluptate Lorem adipisicing et ipsum id et reprehenderit ullamco. Elit in nulla laborum nulla quis dolor deserunt magna dolor ad anim magna. Esse aute reprehenderit anim sit est et quis est. Ex reprehenderit culpa deserunt qui sint eiusmod reprehenderit ipsum consequat ut.',
             'categories'      : [
-                'Canvas Print',
+                'Walmart',
                 'Nature'
             ],
             'tags'            : [
@@ -394,15 +406,16 @@ export class ECommerceFakeDb
             'depth'           : '15',
             'weight'          : '3',
             'extraShippingFee': 3.00,
-            'active'          : true
+            'active'          : true,
+            'lastModified'    : '1/1/12'
         },
         {
             'id'              : '6',
-            'name'            : 'Lago di Sorapis - Canvas Print',
+            'name'            : 'Sauce, Sweet Onion, 6/30 Fluid Ounce',
             'handle'          : 'lago-di-sorapis-canvas-print',
             'description'     : 'Tempor sunt tempor veniam non culpa excepteur. Ea irure elit non cupidatat cillum dolore. Sit incididunt qui dolore ipsum commodo aliqua amet cupidatat incididunt nisi qui consectetur. Cillum eu aute qui irure aute adipisicing cupidatat magna.',
             'categories'      : [
-                'Canvas Print',
+                'Subway',
                 'Nature'
             ],
             'tags'            : [
@@ -473,15 +486,16 @@ export class ECommerceFakeDb
             'depth'           : '15',
             'weight'          : '3',
             'extraShippingFee': 3.00,
-            'active'          : true
+            'active'          : true,
+            'lastModified'    : '5/1/18'
         },
         {
             'id'              : '7',
-            'name'            : 'Never Stop Changing - Canvas Print',
+            'name'            : 'Food, Sauce, Vinegar, Red Wine, 4/1 Gallon',
             'handle'          : 'never-stop-changing-canvas-print',
             'description'     : 'Excepteur commodo ipsum in ex esse elit ea id voluptate id occaecat. Sunt Lorem ipsum ut proident eu aliquip velit non minim. Sunt velit deserunt veniam eu non veniam. Eiusmod sit ex et id incididunt labore aliqua eu aute dolor cillum ex mollit mollit. Incididunt voluptate adipisicing eiusmod non ipsum cupidatat excepteur enim in pariatur eu. Labore dolor qui exercitation amet labore laboris Lorem do adipisicing. Minim non consectetur adipisicing esse ut occaecat incididunt eiusmod commodo et cillum pariatur.',
             'categories'      : [
-                'Canvas Print',
+                'Subway',
                 'Nature'
             ],
             'tags'            : [
@@ -552,15 +566,16 @@ export class ECommerceFakeDb
             'depth'           : '15',
             'weight'          : '3',
             'extraShippingFee': 3.00,
-            'active'          : true
+            'active'          : true,
+            'lastModified'    : '5/13/20'
         },
         {
             'id'              : '8',
-            'name'            : 'Reaching - Canvas Print',
+            'name'            : 'Food, Produce, Olives, Black, Sliced, 10/33 Ounce',
             'handle'          : 'reaching-canvas-print',
             'description'     : 'Velit cillum cupidatat eiusmod ea quis sit. Consequat dolore elit sunt sunt voluptate irure incididunt consectetur non. Dolore veniam ipsum anim commodo ex. Proident ipsum nostrud ullamco sit. Ad dolore nulla qui mollit laborum ex ipsum.',
             'categories'      : [
-                'Canvas Print',
+                'Subway',
                 'Nature'
             ],
             'tags'            : [
@@ -631,15 +646,16 @@ export class ECommerceFakeDb
             'depth'           : '15',
             'weight'          : '3',
             'extraShippingFee': 3.00,
-            'active'          : false
+            'active'          : false,
+            'lastModified'    : '1/11/19'
         },
         {
             'id'              : '9',
-            'name'            : 'Morain Lake - Canvas Print',
+            'name'            : 'Produce, Peppers, Medium, 1/25 Pound',
             'handle'          : 'morain-lake-canvas-print',
             'description'     : 'Consequat minim velit commodo Lorem ipsum velit elit amet ut. In deserunt id duis nisi labore. Proident cillum et reprehenderit excepteur ex nulla enim.',
             'categories'      : [
-                'Canvas Print',
+                'Subway',
                 'Nature'
             ],
             'tags'            : [
@@ -714,11 +730,11 @@ export class ECommerceFakeDb
         },
         {
             'id'              : '10',
-            'name'            : 'Yosemite - Canvas Print',
+            'name'            : 'Food, Produce, Peppers, Banana, Hot, 8/80 Fluid Ounce',
             'handle'          : 'yosemite-canvas-print',
             'description'     : 'Proident do sunt dolor tempor aliquip adipisicing dolor reprehenderit officia proident. Culpa non reprehenderit velit anim consequat velit elit eu culpa quis incididunt id. Eu incididunt exercitation nostrud est mollit officia. Laboris deserunt dolore sit occaecat exercitation quis sunt sunt nisi commodo.',
             'categories'      : [
-                'Canvas Print',
+                'Subway',
                 'Nature'
             ],
             'tags'            : [
@@ -789,15 +805,16 @@ export class ECommerceFakeDb
             'depth'           : '15',
             'weight'          : '3',
             'extraShippingFee': 3.00,
-            'active'          : true
+            'active'          : true,
+            'lastModified'    : '5/19/20'
         },
         {
             'id'              : '11',
-            'name'            : 'A Walk Amongst Friends - Canvas Print',
+            'name'            : 'Walmart, Salad Dressing, Blue Cheese, 1.5 oz, 60/1 Each',
             'handle'          : 'a-walk-amongst-friends-canvas-print',
             'description'     : 'Officia amet eiusmod eu sunt tempor voluptate laboris velit nisi amet enim proident et. Consequat laborum non eiusmod cillum eu exercitation. Qui adipisicing est fugiat eiusmod esse. Sint aliqua cupidatat pariatur mollit ad est proident reprehenderit. Eiusmod adipisicing laborum incididunt sit aliqua ullamco.',
             'categories'      : [
-                'Canvas Print',
+                'Subway',
                 'Nature'
             ],
             'tags'            : [
@@ -868,15 +885,16 @@ export class ECommerceFakeDb
             'depth'           : '15',
             'weight'          : '3',
             'extraShippingFee': 3.00,
-            'active'          : true
+            'active'          : true,
+            'lastModified'    : '1/1/13'
         },
         {
             'id'              : '12',
-            'name'            : 'Never Stop Changing - Canvas Print',
+            'name'            : 'Beverages and Chips, Chips, Tostitos, Rounds, Walmart, 3 oz, 28/1 Each',
             'handle'          : 'never-stop-changing-canvas-print',
             'description'     : 'Excepteur commodo ipsum in ex esse elit ea id voluptate id occaecat. Sunt Lorem ipsum ut proident eu aliquip velit non minim. Sunt velit deserunt veniam eu non veniam. Eiusmod sit ex et id incididunt labore aliqua eu aute dolor cillum ex mollit mollit. Incididunt voluptate adipisicing eiusmod non ipsum cupidatat excepteur enim in pariatur eu. Labore dolor qui exercitation amet labore laboris Lorem do adipisicing. Minim non consectetur adipisicing esse ut occaecat incididunt eiusmod commodo et cillum pariatur.',
             'categories'      : [
-                'Canvas Print',
+                'Subway',
                 'Nature'
             ],
             'tags'            : [
@@ -947,15 +965,16 @@ export class ECommerceFakeDb
             'depth'           : '15',
             'weight'          : '3',
             'extraShippingFee': 3.00,
-            'active'          : true
+            'active'          : true,
+            'lastModified'    : '1/1/12'
         },
         {
             'id'              : '13',
-            'name'            : 'Morain Lake - Canvas Print',
+            'name'            : 'Seasoning, Pepper, Shaker, 36/4 Ounce',
             'handle'          : 'morain-lake-canvas-print',
             'description'     : 'Consequat minim velit commodo Lorem ipsum velit elit amet ut. In deserunt id duis nisi labore. Proident cillum et reprehenderit excepteur ex nulla enim.',
             'categories'      : [
-                'Canvas Print',
+                'Subway',
                 'Nature'
             ],
             'tags'            : [
@@ -1026,15 +1045,16 @@ export class ECommerceFakeDb
             'depth'           : '15',
             'weight'          : '3',
             'extraShippingFee': 3.00,
-            'active'          : true
+            'active'          : true,
+            'lastModified'    : '1/14/14'
         },
         {
             'id'              : '14',
-            'name'            : 'Braies Lake - Canvas Print',
+            'name'            : 'Food, Topping, Croutons, Fresh Gourmet Italian Seasoned,  PC Packets, 0.5 oz, 100/1 Each',
             'handle'          : 'braies-lake-canvas-print',
             'description'     : 'Duis anim est non exercitation consequat. Ullamco ut ipsum dolore est elit est ea elit ad fugiat exercitation. Adipisicing eu ad sit culpa sint. Minim irure Lorem eiusmod minim nisi sit est consectetur.',
             'categories'      : [
-                'Canvas Print',
+                'Subway',
                 'Nature'
             ],
             'tags'            : [
@@ -1105,15 +1125,16 @@ export class ECommerceFakeDb
             'depth'           : '15',
             'weight'          : '3',
             'extraShippingFee': 3.00,
-            'active'          : true
+            'active'          : true,
+            'lastModified'    : '1/2/12'
         },
         {
             'id'              : '15',
-            'name'            : 'Lago di Braies - Canvas Print',
+            'name'            : 'Food, Produce, Olives, Black, Sliced, 10/33 Ounce',
             'handle'          : 'lago-di-braies-canvas-print',
             'description'     : 'Laboris laborum minim qui reprehenderit duis fugiat ea anim labore incididunt duis. Officia adipisicing anim amet in sit aliqua fugiat quis do sint non velit eu. Labore occaecat labore elit voluptate Lorem adipisicing et ipsum id et reprehenderit ullamco. Elit in nulla laborum nulla quis dolor deserunt magna dolor ad anim magna. Esse aute reprehenderit anim sit est et quis est. Ex reprehenderit culpa deserunt qui sint eiusmod reprehenderit ipsum consequat ut.',
             'categories'      : [
-                'Canvas Print',
+                'Subway',
                 'Nature'
             ],
             'tags'            : [
@@ -1184,15 +1205,16 @@ export class ECommerceFakeDb
             'depth'           : '15',
             'weight'          : '3',
             'extraShippingFee': 3.00,
-            'active'          : true
+            'active'          : true,
+            'lastModified'    : '6/1/17'
         },
         {
             'id'              : '16',
-            'name'            : 'Fall Glow - Canvas Print',
+            'name'            : 'Produce, Cilantro, 4/1 Pound',
             'handle'          : 'fall-glow-canvas-print',
             'description'     : 'Sit ipsum esse eu consequat veniam sit consectetur consectetur anim. Ut Lorem dolor ullamco do. Laboris excepteur consectetur tempor nisi commodo amet deserunt duis.',
             'categories'      : [
-                'Canvas Print',
+                'Subway',
                 'Nature'
             ],
             'tags'            : [
@@ -1263,15 +1285,16 @@ export class ECommerceFakeDb
             'depth'           : '15',
             'weight'          : '3',
             'extraShippingFee': 3.00,
-            'active'          : true
+            'active'          : true,
+            'lastModified'    : '2/2/17'
         },
         {
             'id'              : '17',
-            'name'            : 'Lago di Sorapis - Canvas Print',
+            'name'            : 'Produce, Tomatoes, Pink, 1/25 Pound',
             'handle'          : 'lago-di-sorapis-canvas-print',
             'description'     : 'Tempor sunt tempor veniam non culpa excepteur. Ea irure elit non cupidatat cillum dolore. Sit incididunt qui dolore ipsum commodo aliqua amet cupidatat incididunt nisi qui consectetur. Cillum eu aute qui irure aute adipisicing cupidatat magna.',
             'categories'      : [
-                'Canvas Print',
+                'Subway',
                 'Nature'
             ],
             'tags'            : [
@@ -1342,15 +1365,16 @@ export class ECommerceFakeDb
             'depth'           : '15',
             'weight'          : '3',
             'extraShippingFee': 3.00,
-            'active'          : true
+            'active'          : true,
+            'lastModified'    : '1/3/15'
         },
         {
             'id'              : '18',
-            'name'            : 'Reaching - Canvas Print',
+            'name'            : 'Beverage, Fountain, Lemonade, Light, 1/5 Gallon',
             'handle'          : 'reaching-canvas-print',
             'description'     : 'Velit cillum cupidatat eiusmod ea quis sit. Consequat dolore elit sunt sunt voluptate irure incididunt consectetur non. Dolore veniam ipsum anim commodo ex. Proident ipsum nostrud ullamco sit. Ad dolore nulla qui mollit laborum ex ipsum.',
             'categories'      : [
-                'Canvas Print',
+                'Subway',
                 'Nature'
             ],
             'tags'            : [
@@ -1421,15 +1445,16 @@ export class ECommerceFakeDb
             'depth'           : '15',
             'weight'          : '3',
             'extraShippingFee': 3.00,
-            'active'          : false
+            'active'          : false,
+            'lastModified'    : '1/1/13'
         },
         {
             'id'              : '19',
-            'name'            : 'First Snow - Canvas Print',
+            'name'            : 'Cup, 12 oz, SBC, Coffee, 20/20 Each',
             'handle'          : 'first-snow-canvas-print',
             'description'     : 'Incididunt nostrud culpa labore nostrud veniam nostrud dolore velit sunt laborum ad reprehenderit. Excepteur enim irure ut labore elit ut deserunt qui qui consequat quis do nostrud ad. Aliqua dolor labore ut occaecat laborum irure. Aute in deserunt do aute laborum sit et reprehenderit minim voluptate proident do est.',
             'categories'      : [
-                'Canvas Print',
+                'Subway',
                 'Nature'
             ],
             'tags'            : [
@@ -1500,15 +1525,16 @@ export class ECommerceFakeDb
             'depth'           : '15',
             'weight'          : '3',
             'extraShippingFee': 3.00,
-            'active'          : false
+            'active'          : false,
+            'lastModified'    : '11/1/20'
         },
         {
             'id'              : '20',
-            'name'            : 'Yosemite - Canvas Print',
+            'name'            : 'Packaging, Cup, 21 oz, Cold, 24/50 Each',
             'handle'          : 'yosemite-canvas-print',
             'description'     : 'Proident do sunt dolor tempor aliquip adipisicing dolor reprehenderit officia proident. Culpa non reprehenderit velit anim consequat velit elit eu culpa quis incididunt id. Eu incididunt exercitation nostrud est mollit officia. Laboris deserunt dolore sit occaecat exercitation quis sunt sunt nisi commodo.',
             'categories'      : [
-                'Canvas Print',
+                'Subway',
                 'Nature'
             ],
             'tags'            : [
@@ -1579,7 +1605,8 @@ export class ECommerceFakeDb
             'depth'           : '15',
             'weight'          : '3',
             'extraShippingFee': 3.00,
-            'active'          : true
+            'active'          : true,
+            'lastModified'    : '1/1/13'
         }
     ];
 
@@ -3265,4 +3292,5 @@ export class ECommerceFakeDb
             ]
         }
     ];
+
 }
